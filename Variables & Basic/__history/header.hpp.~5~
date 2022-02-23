@@ -1,0 +1,5 @@
+#include<iostream>
+int a=322;
+void statement(){
+    std::cout<<"This is inside the header file";
+}
