@@ -6,6 +6,7 @@ int main()
     int num=20;
     //applying the stringstream class
     //declare a stream object
+    //stringStream in loop case must be declare inside loop or it will not get update for each loop
     std::stringstream stream;
     stream<<num;;
     //initializing a string
