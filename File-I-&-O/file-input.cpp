@@ -4,7 +4,7 @@
 #include<string>
 int main()
 {
-    std::ofstream file ("sample2.txt");
+    std::ofstream file ("sample.txt");
     std::vector<std::string> names;
     names.push_back("Raihan");
     names.push_back("Caleb");

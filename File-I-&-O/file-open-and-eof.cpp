@@ -12,7 +12,7 @@ int main()
     std::ifstream fileTwo;
     std::string fileData;
     fileTwo.open("New.txt");
-    while(fileTwo.eof()==0){
+    while(!fileTwo.eof()){
         getline(fileTwo,fileData);
         std::cout<<fileData<<std::endl;
     }
