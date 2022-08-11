@@ -24,6 +24,8 @@ int main()
     */
 
     vector<vector<int>> vec(row);
+    //with both column and row it can be written ike this
+    // vector<vector<int>> v(row,vector<int>(col));
     /*
     On line 21 we created a 2D vector and assigned
     it a capacity of "row"(in this case 5) units.
